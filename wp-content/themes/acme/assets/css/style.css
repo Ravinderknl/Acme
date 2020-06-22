@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url("../fonts/HelveticaMedium.eot");
+  src: url("../fonts/HelveticaMedium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../fonts/Poppins-Medium.eot");
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../fonts/Poppins-SemiBold.eot");
+  src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+
+body {
+    background: #fff;
+    text-align: center;
+    font-family: "Poppins-Medium", sans-serif;
+    color: #888;
+    font-size: 12px;
+}
+.register-form{padding:20px 0px;}
+.register-form .container{width:100%;max-width: 1030px;margin:0 auto;}
+.register-form-block{border-radius:16px;box-shadow:  0px 0px 4px
+rgba(0, 0, 0, 0.05);float:left;width:100%;text-align: left;}
+.form-step-sidebar{background:#FBFBFB;text-align: left;    border-radius: 16px 0px 0px 16px;width:376px;float:left;padding:43px 53px 27px;}
+.form-step-sidebar .logo{width:124px;}
+.form-step-sidebar .nav-sidebar{margin-top:80px;padding-left:0px;list-style: none;}
+.form-step-sidebar .nav-sidebar li{padding-bottom: 20px;}
+.form-step-sidebar .nav-sidebar li a{font-family: "HelveticaNeue";color:#666;font-size:14px;line-height: 17px;}
+.form-step-sidebar .nav-sidebar li a .list-ico{    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    border-radius: 50%;
+    border: 2px solid #666;font-family:"HelveticaMedium";
+  }
+  .form-step-sidebar .nav-sidebar li a:hover, .form-step-sidebar .nav-sidebar li a:focus{text-decoration: none;}
+ .form-step-sidebar .nav-sidebar li a.active{color: #0F8AE7;cursor: pointer;}
+ .form-step-sidebar .nav-sidebar li a.active .list-ico{border-color: #0F8AE7;} 
+ .footer-img{width:228px;height:auto;margin-top:120px;}
+ .form-step-content{width:624px;float:left;padding-top: 39px;
+    padding-left: 120px; padding-right: 120px;}
+.form-step-content   .tag-name{font-size: 12px;
+    color: #ccc;
+    line-height: 18px;}
+ .form-step-content .title{margin-top:5px;font-size:20px;color:#000;line-height: 30px;margin-bottom:34px;}
+.form-step-content label {
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;margin-bottom:5px;}
+.form-step-content .form-group{margin-bottom:25px;}
+.form-step-content .form-control{
+border: 1px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 11px 12px;
+    font-size: 12px;font-family: "Poppins-Medium"; box-shadow:0px 0px;color:#444;font-style: normal;height:40px;}
+.form-step-content .form-group sub    {
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;color:#999;}
+.form-step-content .btn-continue{background-color: #0F8AE7;max-width:387px;width:100%;color:#fff;font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;padding:11px 0px;border:0px;border-radius:4px;margin-top:70px;}
+.form-step-content .btn-continue:focus{border:0px;}
+.form-step-sidebar .nav-sidebar li a .list-ico.blu-box{background-color:#0F8AE7;border: 2px solid #0F8AE7; line-height: 24px;}
+.form-step-content select.form-control
+{-moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    appearance:none;
+background: url(../img/Polygon.png) no-repeat white;
+background-position: 98% 15px;
+  }
+.form-step-content  p{font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;margin-bottom:10px;color:#444;}
+.form-step-content  .email-content{width:100%;}
+.inactive_tab{cursor: not-allowed;}
+.step-inactive{display: none;}
+.has-error
+  {
+   border-color:#cc0000!important;
+   
+  }
+@media screen and (max-width:767px)
+{
+.form-step-sidebar{width:100%;}
+.form-step-content{width:100%;padding-left:20px;padding-right:20px;}
+}
